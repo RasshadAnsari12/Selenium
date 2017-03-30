@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="automation test2">
+
+	<test name="testNG2">
+		<packages>
+
+			<package name="TestNG"/>
+			<package name="TestNG2"/>
+
+		</packages>
+
+
+	</test>
+
+
+</suite>

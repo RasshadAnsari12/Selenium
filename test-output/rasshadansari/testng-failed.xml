@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [rasshadansari]">
+  <test name="Ansari(failed)">
+    <classes>
+      <class name="TestNG.TestNG_ANNOTATIONS_2">
+        <methods>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- TestNG.TestNG_ANNOTATIONS_2 -->
+      <class name="TestNG.DDT_2DA">
+        <methods>
+          <include name="DDT" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.DDT_2DA -->
+      <class name="TestNG.TestNG_ANNOTATIONS">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="POP"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- TestNG.TestNG_ANNOTATIONS -->
+      <class name="TestNG2.TestNG_ANNOTATIONS">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="POP"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- TestNG2.TestNG_ANNOTATIONS -->
+      <class name="TestNG2.TestNG_ANNOTATIONS_2">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="AfterSuite"/>
+        </methods>
+      </class> <!-- TestNG2.TestNG_ANNOTATIONS_2 -->
+    </classes>
+  </test> <!-- Ansari(failed) -->
+</suite> <!-- Failed suite [rasshadansari] -->

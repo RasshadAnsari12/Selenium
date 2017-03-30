@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite"  parellel="false">
+<test name="FirefoxTestCase">
+
+<parameter name="browser" value="Firefox"></parameter>
+<classes>
+
+<class name="CrossBrowserTesting.CrossBrowerTesting_02">
+
+
+</class>
+</classes>
+
+</test>
+<test name="ChromeTestCase">
+
+<parameter name="browser" value="chrome">
+</parameter>
+<classes>
+<class name="CrossBrowserTesting.CrossBrowerTesting_02"></class>
+</classes>
+</test>
+<test name="InternetExplorerTestCase">
+<parmeter name="browser" value="explorer"></parmeter>
+<classes>
+<class name="CrossBrowserTesting.CrossBrowerTesting_02"></class>
+</classes>
+
+</test>
+</suite>
+
